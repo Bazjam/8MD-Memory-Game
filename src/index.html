@@ -14,9 +14,11 @@
 <body>
     <div class="wrapper">
         <div class="winner">
-            <p data-winner-text class="winner__p">Play this game</p>
+            <p data-winner-text class="winner__text"></p>
+            <button data-start-btn class="reset">Start Game</button>
+
         </div>
-        <section class="memory-game">
+        <section data-memory-game-all-cards class="memory-game hide">
 
             <div class="card" data-memo="aurelia">
                 <img class="front-face" src="./assets/images/spain.svg" alt="Aurelia" />
@@ -80,8 +82,8 @@
 
         </section>
 
-        <footer class="">
-            <button data-reset-btn class="reset">Reset Game</button>
+        <footer>
+            <button data-reset-btn class="reset hide">Reset Game</button>
         </footer>
 
     </div>
