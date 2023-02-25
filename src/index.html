@@ -2,95 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="winner">
-            <p data-winner-text class="winner__text"></p>
-            <button data-start-btn class="reset">Start Game</button>
-
-        </div>
-        <section data-memory-game-all-cards class="memory-game hide">
-
-            <div class="card" data-memo="aurelia">
-                <img class="front-face" src="./assets/images/spain.svg" alt="Aurelia" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="aurelia">
-                <img class="front-face" src="./assets/images/spain.svg" alt="Aurelia" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="vue">
-                <img class="front-face" src="./assets/images/latvia.svg" alt="Vue" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="vue">
-                <img class="front-face" src="./assets/images/latvia.svg" alt="Vue" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="angular">
-                <img class="front-face" src="./assets/images/skull.svg" alt="Angular" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="angular">
-                <img class="front-face" src="./assets/images/skull.svg" alt="Angular" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="ember">
-                <img class="front-face" src="./assets/images/smile.svg" alt="Ember" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="ember">
-                <img class="front-face" src="./assets/images/smile.svg" alt="Ember" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="backbone">
-                <img class="front-face" src="./assets/images/steve.svg" alt="Backbone" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="backbone">
-                <img class="front-face" src="./assets/images/steve.svg" alt="Backbone" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="react">
-                <img class="front-face" src="./assets/images/world.svg" alt="React" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div>
-
-            <div class="card" data-memo="react">
-                <img class="front-face" src="./assets/images/world.svg" alt="React" />
-                <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
-            </div> 
-
-        </section>
-
-        <footer>
-            <button data-reset-btn class="reset hide">Reset Game</button>
-        </footer>
-
+  <div class="wrapper">
+    <div class="winner">
+      <p data-winner-text class="winner__text"></p>
+      <button data-start-btn class="reset">Start Game</button>
     </div>
 
+    <section data-memory-game-all-cards class="memory-game hide">
+      <div class="card" data-memo="aurelia">
+        <img class="front-face" src="./assets/images/spain.svg" alt="Aurelia" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
 
+      <div class="card" data-memo="aurelia">
+        <img class="front-face" src="./assets/images/spain.svg" alt="Aurelia" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
 
-    <script src="/scripts.js"></script>
+      <div class="card" data-memo="vue">
+        <img class="front-face" src="./assets/images/latvia.svg" alt="Vue" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="vue">
+        <img class="front-face" src="./assets/images/latvia.svg" alt="Vue" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="angular">
+        <img class="front-face" src="./assets/images/skull.svg" alt="Angular" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="angular">
+        <img class="front-face" src="./assets/images/skull.svg" alt="Angular" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="ember">
+        <img class="front-face" src="./assets/images/smile.svg" alt="Ember" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="ember">
+        <img class="front-face" src="./assets/images/smile.svg" alt="Ember" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="backbone">
+        <img class="front-face" src="./assets/images/steve.svg" alt="Backbone" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="backbone">
+        <img class="front-face" src="./assets/images/steve.svg" alt="Backbone" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="react">
+        <img class="front-face" src="./assets/images/world.svg" alt="React" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+
+      <div class="card" data-memo="react">
+        <img class="front-face" src="./assets/images/world.svg" alt="React" />
+        <img class="back-face" src="./assets/images/question.svg" alt="JS Badge" />
+      </div>
+    </section>
+
+    <footer>
+      <button data-reset-btn class="reset hide">Reset Game</button>
+    </footer>
+
+  </div>
+
+  <script src="/scripts.js"></script>
 </body>
 
 </html>
